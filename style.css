@@ -37,6 +37,20 @@ body {
   }
 }
 
+.dot {
+	align-right:4px;
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Thick red border */
+hr.new4 {
+  border: 2px solid #33ccff;
+}
+
 .flip-card {
   border-radius: 15px 50px 30px;
   background-color: transparent;
