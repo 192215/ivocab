@@ -51,6 +51,23 @@ hr.new4 {
   border: 2px solid #33ccff;
 }
 
+h4{
+	color: dodgerblue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	font: italic bold 12px/30px Georgia, serif;
+}
+
+p{
+	font-size: 22px;
+}
+
+span{
+	font-size: 22px;
+}
+
 .flip-card {
   border-radius: 15px 50px 30px;
   background-color: transparent;
