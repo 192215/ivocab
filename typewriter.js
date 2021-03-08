@@ -2,7 +2,7 @@
 
 let el = document.querySelector(".typewriter");
 
-var data = "Improve your Terminology by daily five new Technical words";
+var data = "Improve your Terminology by daily five new Technical words &#128526;";
 
 var index = 0;
 setInterval(() => {
