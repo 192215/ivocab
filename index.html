@@ -20,6 +20,19 @@
     <h2 class="typewriter"></h2>
     <h3>Hover over the below:</h3>
 		<a href="#newterminolgy"><button class="button"><span>Today's Terminolgies</span></button></a>
+		<div class="dropdown">
+  <!--button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#about">Terminology</a>
+    <a href="#base">Perception</a>
+    <a href="#blog">Sublimely</a>
+    <a href="#contact">Mesmerizes</a>
+    <a href="#Indeed">Indeed</a>
+    <a href="#support">Support</a>
+    <a href="#tools">Tools</a>
+  </div-->
+</div>
 	<div class="row">
 	    <div class="column">
 		    <div class="flip-card">
@@ -187,7 +200,7 @@
 	</div>
 	<hr class="new4">
 	
-	<div class="row" id="newterminolgy">
+	<div class="row">
 		<div class="column">
 		    <div class="flip-card">
 			    <div class="flip-card-inner">
@@ -289,7 +302,71 @@
 		    <div class="flip-card">
 			    <div class="flip-card-inner">
 				    <div class="flip-card-front">
-					    <span class="dot">1</span>
+					    <span class="dot">17</span>
+					    <h4 class="text-center"></h4>
+					</div>
+					<div class="flip-card-back">
+					     <h1></h1> 
+						 <p></p> 
+						 <p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+		    <div class="flip-card">
+			    <div class="flip-card-inner">
+				    <div class="flip-card-front">
+					    <span class="dot">18</span>
+					    <h4 class="text-center"></h4>
+					</div>
+					<div class="flip-card-back">
+					     <h1></h1> 
+						 <p></p> 
+						 <p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+		    <div class="flip-card">
+			    <div class="flip-card-inner">
+				    <div class="flip-card-front">
+					    <span class="dot">19</span>
+					    <h4 class="text-center"></h4>
+					</div>
+					<div class="flip-card-back">
+					     <h1></h1> 
+						 <p></p> 
+						 <p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+		    <div class="flip-card">
+			    <div class="flip-card-inner">
+				    <div class="flip-card-front">
+					    <span class="dot">20</span>
+					    <h4 class="text-center"></h4>
+					</div>
+					<div class="flip-card-back">
+					     <h1></h1> 
+						 <p></p> 
+						 <p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr class="new4">
+	
+	<div class="row" id="newterminolgy">
+	     <div class="column">
+		    <div class="flip-card">
+			    <div class="flip-card-inner">
+				    <div class="flip-card-front">
+					    <span class="dot">21</span>
 					    <h4 class="text-center"></h4>
 					</div>
 					<div class="flip-card-back">
@@ -302,7 +379,28 @@
 		</div>
 		
 
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}</script>
 <script src="gradient.js"></script>
 <script src="typewriter.js"></script>
 </body>
